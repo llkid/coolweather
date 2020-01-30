@@ -115,6 +115,7 @@ public class WeatherActivity extends AppCompatActivity {
         }
     }
 
+    //获取cn.bing.com的每日界面图片
     private void loadBingPic() {
         String requestBingPic = "http://guolin.tech/api/bing_pic";
         HttpUtil.sendOkHttpRequest(requestBingPic, new Callback() {
